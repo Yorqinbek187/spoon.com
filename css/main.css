@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Fredoka:wght@300..700&family=Goldman:wght@400;700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Fredoka:wght@300..700&family=Goldman:wght@400;700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(0, 18, 47, 0.4); 
+    backdrop-filter: blur(5px); 
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.header__link{
+    font-family:"roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+    transition: 0.5s ease-in-out;
+
+}
+.button1{
+    color: white;
+    font-family: "Libre Franklin";
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: transparent; /* shaffof fon */
+    transition: 0.5s ease-in-out;
+}
+
+.button1:hover{
+    color: rgb(132, 255, 136);
+    border: 2px solid rgb(137, 255, 141);
+    background: transparent; /* hover paytida ham shaffof */
+}
+.header__link:hover{
+    font-family:"roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgb(74, 255, 80);
+    background: none;
+
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 20px;
+
+}
+.header__img{
+    margin-left: 30px;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main{
+    background-image: url(../images/orqafon.png);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.header__title{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-family:"roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 71px;
+    line-height: 78px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.main__text{
+    font-family:"roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+.button2{
+    font-family: "roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgb(118, 255, 118);
+    transition:0.6s ease-in-out ;
+    margin-top: 20px;
+    margin-left: 510px;
+}
+.button2:hover{
+    background: rgb(0, 255, 0);
+}
+.aside__title{
+    font-family: "roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    width: 507px;
+    color: black;
+    margin-bottom: 150px;
+}
+.span1{
+    font-family:"roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: gray;
+    
+}
+.aside__title1{
+    color: black;
+    font-family: "roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0%;
+}
+.aside__text{
+    font-family:"roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: gray;
+}
+.aside__list{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+}
+.immmmmg{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.address__title{
+    font-family: "roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: black;
+    margin-bottom: 120px;
+    width: 760px;
+    margin-left: 180px;
+    text-align: center;
+}
+.span2{
+    font-family:"roboto";
+    font-weight: 100;
+    font-style: Thin;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: gray;
+}
+.address__title1{
+    font-family: "roboto";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    width: 360px;
+}
+.span3{
+    font-family: "roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: gray;
+}
+.address__text{
+    font-family:"roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 13px;
+    line-height: 24px;
+    width: 360px;
+    letter-spacing: 0%;
+    color: gray;
+}
+.address__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 170px;
+    margin-left: -100px;
+    margin-right: 100px;
+}
+.time__link{
+    color: rgb(0, 255, 0);
+    font-family: "roboto";
+
+}
+.time__title{
+    font-family: "roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    letter-spacing: 0%;
+    width: 483px;
+
+}
+.span4{
+    font-family: "roboto";
+    font-weight: 100;
+    font-style: Thin;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: gray;
+    width: 483px;
+}
+.time__list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.time__btn{
+    color: white;
+    background: rgb(68, 210, 68);
+    padding: 15px 20px;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+    border-radius: 10px;
+    font-family: "roboto";
+    
+}
+.footer__link{
+    font-family: "roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 12px;
+    line-height: 18px;
+    transition: 0.6s ease-in-out;
+    letter-spacing: 0%;
+    color: white;
+}
+.footer__link:hover{
+    font-family: "roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: rgb(183, 183, 183);
+    list-style: 16px;
+}
+.footer__text{
+    font-family: "roboto";
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #666666;
+}
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    
+}
+footer{
+    max-width: 100%;
+    height: 180px;
+    background: #0A0E1A;
+}
+.footer__item{
+    list-style: 40px;
+}
+.footer___span{
+    list-style: 20px;
+    line-height: 30px;
+}
+.star{
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+.star:hover{
+    color: greenyellow;
+}
